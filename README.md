@@ -6,8 +6,8 @@ Useful when converting Alphafold3 output (.cif) to pdb
 # Create a cxc file
 Format should look like
 
-open file.cif
-save file.pdb
-close
+open file.cif <br />
+save file.pdb<br />
+close <br />
 
-# Open ChieraX -> File tab -> set working folder (where cif files are) -> command line -> runscript "cxc_file_path"
+# Open ChimeraX -> File tab -> set working folder (where cif files are) -> command line -> runscript "cxc_file_path"
